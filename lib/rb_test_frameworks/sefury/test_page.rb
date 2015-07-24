@@ -1,4 +1,4 @@
-class BasePage < PageObject
+class BasePage < PageObjectSF
 
   text_input_element :name, { id: 'entry_1000000' }
   drop_down_element :language, { id: 'entry_1000001' }
@@ -13,7 +13,7 @@ class BasePage < PageObject
   end
 end
 
-class ResultPage < PageObject
+class ResultPage < PageObjectSF
   text_element :message_text, { css: '.ss-resp-message' }
 
   def message
