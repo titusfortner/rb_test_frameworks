@@ -35,4 +35,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "selenium_fury"
   spec.add_development_dependency "page-object"
   spec.add_development_dependency "watirsome"
+  spec.add_development_dependency "watir_drops"
 end
